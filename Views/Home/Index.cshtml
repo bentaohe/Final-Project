@@ -1,0 +1,49 @@
+﻿
+<html lang="en">
+<head>
+    <title>My favorite hobbies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>My Hobbies</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.cshtml">Home</a></li>
+                <a asp-controller="Home" asp-action="mh"
+                   class="list-group-item">Monster Hunter</a>
+                <a asp-controller="Home" asp-action="team"
+                   class="list-group-item">Brooklyn Nets</a>
+                <a asp-controller="Home" asp-action="aboutme"
+                   class="list-group-item">About Me</a>
+            </ul>
+        </nav>
+     
+        <main>
+            <h2>Introduction</h2>
+            
+            <p>Here are several hobbies of mine:</p>
+            <ul>
+                <li>Playing basketball</li>
+                <li>Watching anime</li>
+                <li>Enjoying tasty food</li>
+                <li>Playing video games</li>
+            </ul>
+            <div>
+                <span class="resort">I'm going to introduce My favorite video game, and my favorite basketball team:</span><br>
+                Monster Hunter series<br>
+                Brooklyn Nets<br><br>
+                
+            </div>
+        </main>
+        <footer>
+            Copyright &copy; 2021 Bentao He<br>
+            
+        </footer>
+    </div>
+</body>
+</html>
